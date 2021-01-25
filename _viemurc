@@ -1,0 +1,13 @@
+nnoremap <esc> :noh<return><esc>
+map <C-S> <esc>:w<CR>
+map <C-W> <esc>:q<CR>
+imap <C-S> <esc>:w<CR>i
+nnoremap <Space> gS:vsc Tools.InvokePeasyMotion<CR>
+nmap ;; gS:vsc Tools.InvokePeasyMotionTextSelect<CR>
+nmap ;w gS:vsc Tools.InvokePeasyMotionLineJumpToWordBegining<CR>
+nmap ;e gS:vsc Tools.InvokePeasyMotionLineJumpToWordEnding<CR>
+nmap ;t gS:vsc Tools.InvokePeasyMotionJumpToDocumentTab<CR>
+nmap ;l gS:vsc Tools.InvokePeasyMotionJumpToLineBegining<CR>
+nmap ;c gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
+"imap ii <Esc>
+"imap <C-L> <Esc>
